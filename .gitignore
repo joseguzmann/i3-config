@@ -1,0 +1,5 @@
+# Estado de runtime: el perfil de pantalla activo (por máquina)
+.display-mode
+
+# Backups que crea install.sh
+i3-backup-*/

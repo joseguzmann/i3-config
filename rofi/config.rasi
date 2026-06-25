@@ -1,0 +1,7 @@
+configuration {
+    show-icons:    true;
+    drun-display-format: "{name}";
+    display-drun:  " Apps";
+    display-run:   " Run";
+}
+@theme "~/.config/rofi/catppuccin-mocha.rasi"
