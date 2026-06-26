@@ -35,6 +35,10 @@ un archivo de este repo == editar la config viva.
   `sleep 0.3`/`disown` en `launch.sh`, o las barras se matan entre sí.
 - **Wallpaper:** diseño centrado/simétrico (feh recorta por monitor). Regenerar con
   `scripts/generate-wallpaper.sh`, no a mano.
+- **picom + GPU híbrida (AMD+NVIDIA/PRIME):** mantener `backend = "xrender"`. Con
+  `backend = "glx"` picom deja en NEGRO los monitores que no maneja la GPU primaria
+  (síntoma: una pantalla en negro aunque i3 tenga ventanas ahí). xrender no soporta
+  blur (`blur-method = "none"`); esquinas/sombras/fade/transparencia sí funcionan.
 
 ## Seguridad
 
