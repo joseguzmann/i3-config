@@ -224,9 +224,9 @@ gaps outer 4
 smart_gaps on
 smart_borders on
 
-# Wallpaper (feh), barra (polybar) y compositor (picom)
-exec_always --no-startup-id feh --no-fehbg --bg-fill ~/.wallpapers/catppuccin-mocha.png
-exec_always --no-startup-id ~/.config/polybar/launch.sh
+# Compositor (picom). El wallpaper (feh) y la barra (polybar) los lanza
+# setup-monitors.sh DESPUES de fijar el xrandr, para que no salgan mal cuadrados
+# en arranque en frio ni se maten las barras durante el restart de i3.
 exec --no-startup-id picom --config ~/.config/picom/picom.conf
 
 # Alternate keyboard language
