@@ -1,7 +1,7 @@
 #!/bin/sh
 # Perfiles de pantallas.   Uso: setup-monitors.sh [tres|laptop|auto]
 #
-#   tres   -> 3 pantallas: HDMI izquierda HORIZONTAL (2560x1440@144 en +0+0),
+#   tres   -> 3 pantallas HORIZONTALES: HDMI izquierda 2560x1440@144 en +0+0,
 #             DP medio PRIMARIO 2560x1440@120 en +2560+0,
 #             eDP laptop 1920x1080@165 en +5120+180 (centrado vertical vs los de 1440 de alto).
 #   laptop -> solo eDP (1920x1080@165, primario, en 0x0); HDMI y DP apagados.
